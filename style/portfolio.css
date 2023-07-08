@@ -8,40 +8,54 @@ body {
     color: #FD6E0A;
 }
 
-.btn-parimary{
+.btn-primary {
     border-radius: 5px;
-    background: #FD6E0A;
+    background-color: #FD6E0A;
     border: 0;
     color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 18px 35px;
+    font-size: 10px;
+    font-weight: 300;
+    padding: 10px 20px;
 }
-   
-    /* nav related styles */
-    nav {
-        display: flex;
-        justify-content: space-between;
-    }
 
-    .nav-title {
-        color: #181818;
-        font-size: 45px;
-        font-weight: 800;
-    }
+/* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
 
-    nav>ul {
-        display: flex;
-    }
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
 
-    nav li {
-        list-style: none;
-        margin-right: 50px;
-    }
+nav>ul {
+    display: flex;
+    align-items: center;
+}
 
-    nav a {
-        text-decoration: none;
-        color: #474747;
+nav li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
 
 
-    }
+}
+
+/* header related style */
+.header {
+    background-color: #fff8f3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+}
+
+.profile {}

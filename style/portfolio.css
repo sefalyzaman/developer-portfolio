@@ -55,7 +55,14 @@ nav a {
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 30px 30px;
+    display: flex;
 }
-
-.profile {}
+.profile {
+   
+    width: 200px;
+    height: 250px;
+    display: flex;
+    
+    align-items: center;
+}

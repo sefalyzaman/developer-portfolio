@@ -220,22 +220,42 @@ main section {
 
 /* footer style */
 
-footer { 
+footer {
     display: flex;
+    gap: 100px;
     width: auto;
     background-color: #fff8f3;
     flex-direction: column;
     justify-content: space-between
-
 }
-.footer-colom{
+
+.footer-colom {
     width: 70%;
     max-width: auto;
+
 }
-.leg{
+.social-links a{
+    margin-right: 25px;
+}
+
+.leg {
     display: flex;
     display: center;
 }
-.footer-heading{
+
+.footer-heading {
     font-size: medium;
+}
+
+.contact input,
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    color: #181818;
+    text-align: center;
+    
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }

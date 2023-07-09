@@ -1,6 +1,7 @@
-*{
+* {
     max-width: 1240px;
 }
+
 /* common shared styles */
 body {
     font-family: 'lato', sans-serif;
@@ -131,9 +132,10 @@ main section {
     padding: 10px 30px;
     border-radius: 10px;
     background-color: #fff8f3;
-    margin: 10px  auto;
+    margin: 10px auto;
 }
-.section-description{
+
+.section-description {
     font-size: 12px;
 }
 
@@ -147,12 +149,12 @@ main section {
 }
 
 /* skill related style */
-.experience{
+.experience {
     width: auto;
 }
 
 #what-i-do-description {
-    
+
     padding: 30px 50px;
 }
 
@@ -183,30 +185,57 @@ main section {
     font-weight: 400;
 
 }
-.Resume-container{
+
+.Resume-container {
     display: flex;
     gap: 20px;
 }
-.resume-item-title{
+
+.resume-item-title {
     color: #474747;
     font-size: 10px;
     font-weight: 700;
     margin: 2px;
-    }
-    .resume-item-instritute{
-        margin-top: 10px;
-        margin-bottom: 0px;
+}
 
-    }
+.resume-item-instritute {
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
 
 .resume-item-instritute,
-.resume-item-description{
+.resume-item-description {
     color: #757575;
 }
-.Resume-container hr{
+
+.Resume-container hr {
     margin: 10px;
 }
-.Download-cv{
+
+.Download-cv {
     margin: 10px;
     text-align: center;
+}
+
+/* footer style */
+
+footer { 
+    display: flex;
+    width: auto;
+    background-color: #fff8f3;
+    flex-direction: column;
+    justify-content: space-between
+
+}
+.footer-colom{
+    width: 70%;
+    max-width: auto;
+}
+.leg{
+    display: flex;
+    display: center;
+}
+.footer-heading{
+    font-size: medium;
 }

@@ -262,3 +262,18 @@ textarea {
     font-weight: 300;
     line-height: normal;
 }
+/* responsive style media quary  */
+/* mobile divaice */
+.hide{
+    display: none;
+}
+@media screen and(max-with: 576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+    #what-i-do-description{
+        padding: 20px;
+    }
+
+    
+}
